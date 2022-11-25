@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456789
+    url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  config-locations: classpath:mapper/*.xml
